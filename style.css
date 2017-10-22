@@ -74,13 +74,15 @@ header > .header-top{
     background-color:#eee;
 }
 header > .header-middle{
-    height:100px;
+    height:90px;
     padding:10px 0px;
     background-color:#fff;
 }
 header > .header-bottom{
     height:50px;
-    background-color:crimson;
+    background-color:#fff;
+    border-bottom:1px solid crimson;
+    border-top:1px solid #f5f5f5;
 }
 .header-bottom > .wrapper > ul > li{
     position: relative;
@@ -89,9 +91,10 @@ header > .header-bottom{
     line-height:50px;
     float:left;
     text-align:center;
-    color:#fff;
+    color:#000;
     margin:0px;
     cursor:pointer;
+    font-size:18px;
 }
 .submenu{
     display:none;
@@ -122,6 +125,7 @@ header > .header-bottom{
     line-height: 40px;
     margin-left:10px;
     color:#000;
+    font-size:16px;
 }
 
 .submenu > li > a:hover{
@@ -142,7 +146,7 @@ header > .header-bottom{
     height:40px;
     padding:10px;
     margin-top:30px;
-    border:1px solid #ccc;
+    border:2px solid crimson;
     float:left;
 }
 #search_btn{
@@ -150,11 +154,12 @@ header > .header-bottom{
     width:80px;
     height:40px;
     margin-top:30px;
-    border:1px solid #ccc;
+    border:1px solid crimson;
     border-left:none;
     padding:0px;
-    background-color:#fafafa;
+    background-color:crimson;
     font-size:16px;
+    color:#fff;
     cursor:pointer
 }
 /*login form*/
@@ -362,6 +367,7 @@ tr{
     border-bottom: 1px solid #eee;
     border-collapse: collapse;
     line-height: 2em;
+    font-size:15px;
 }
 td{
     padding:5px 20px;

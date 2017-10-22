@@ -30,7 +30,7 @@
 		<ul>
 			<?php for($i=0; $i<10;$i++):?>
 			<li>
-				<a href="/detail.php">
+				<a href="./detail.php">
 					<span class="title">제목입니다.제목입니다.</span>
 					<span class="date">11-10</span>
 					<span class="reply_num">+15</span>

@@ -16,7 +16,6 @@
 				<ul>
 					<?php for($i=1; $i<11;$i++):?>
 					<li>
-						<span class="title_num"><?php echo $i;?></span>
 						<a class="title" href="./detail.php">제목입니다.제목입니다.제목입니다.</a>
 						<span class="date">11-10</span>
 						<span class="reply_num">+15</span>
